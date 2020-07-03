@@ -5,13 +5,13 @@ package quality.arithmetic.config;
  * */
 public enum GlobalVariable {
 	
-	CHECK_DB("checkDb"),
-	TABLE_NAME("checkTable"),
-	COLUMN_NAME("checkMeta");
+	CHECK_DB("db"),
+	TABLE_NAME("table"),
+	COLUMN_NAME("column");
 	
 	private String variable;
 	
-	private GlobalVariable(String variable) {
+	GlobalVariable(String variable) {
 		this.variable = variable;
 	}
 
